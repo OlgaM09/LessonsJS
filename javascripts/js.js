@@ -100,6 +100,24 @@ document.addEventListener("DOMContentLoaded", function () {
 // } else console.log("Неверный логин или пароль");
 
 
+// ДОМАШКА 3
+
+function changeStyle(button) {
+    if (button.style.backgroundColor === "green") {
+        button.style.backgroundColor = "pink";
+        button.style.margin = "40px";
+    } else {
+        button.style.backgroundColor = "green";
+        button.style.margin = "20px";
+    }
+}
+
+
+
+
+
+
+
 
 });
 
