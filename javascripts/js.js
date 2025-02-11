@@ -102,19 +102,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ДОМАШКА 3
 
-let button = document.querySelectorAll(".styled-button")
+//let button = document.querySelectorAll(".styled-button")
 
-button.forEach(function (button){ 
-    button.addEventListener("click", function(){
-        if (button.style.backgroundColor === "green") {
-            button.style.backgroundColor = "pink";
-            button.style.margin = "40px";
-        } else {
-            button.style.backgroundColor = "green";
-            button.style.margin = "20px";
-        }    
-    }) 
-}) 
+//button.forEach(function (button){ 
+    //button.addEventListener("click", function(){
+        //if (button.style.backgroundColor === "green") {
+            //button.style.backgroundColor = "pink";
+            //button.style.margin = "40px";
+        //} else {
+            //button.style.backgroundColor = "green";
+            //button.style.margin = "20px";
+        //}    
+    //}) 
+//}) 
+
+// ДОМАШКА 4
+
 
 
 
