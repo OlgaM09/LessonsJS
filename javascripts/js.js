@@ -1,4 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
+//document.addEventListener("DOMContentLoaded", function () {
+
+document.addEventListener("mousemove", (event) => {
 //     let x = 5;
 //     let y = 6;
 //     console.log( x + y ); // 11
@@ -117,6 +119,17 @@ document.addEventListener("DOMContentLoaded", function () {
 //}) 
 
 // ДОМАШКА 4
+
+const x = event.clientX;
+const y = event.clientY;
+
+const limitedX = x % 100;
+const limitedY = y % 100;
+
+const coordinatesDiv = document.getElementById("coordinates");
+coordinatesDiv.textContent = `X: ${limitedX}, Y: ${limitedY}`;
+
+coordinatesDiv.style.color = x > 500 ? "#b866ff" : "#000000";
 
 
 

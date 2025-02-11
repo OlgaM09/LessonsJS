@@ -10,3 +10,23 @@
    
   
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+#coordinates {
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 8px;
+    background: #eb0a9c;
+    box-shadow: 0 4px 6px rgba(52, 191, 237, 0.1);
+    color: #0509f8;
+  }
